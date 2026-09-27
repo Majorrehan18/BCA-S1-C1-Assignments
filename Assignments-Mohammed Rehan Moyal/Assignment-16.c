@@ -2,7 +2,8 @@
 
 #include <stdio.h>
     int main()
-        {int n,i,x;
+        {
+            int n,i,x;
 
             printf("Enter a No.:- ");
             scanf("%d",&n);

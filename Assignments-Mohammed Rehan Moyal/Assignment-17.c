@@ -3,12 +3,11 @@
 #include <stdio.h>
     int main()
         {
-            int n,i,x,a,b,c,d,e;
+            int n,i,x,a,b,c,d;
 
             printf("Enter a Number:- ");
             scanf("%d",&n);
             c=0;
-            e=n;
             a=n;
             d=n;
             x=n%10;
@@ -36,20 +35,19 @@
                 // printf("b = %d\n",b);                
                 d=d/10;
                 // printf("d = %d\n",d);
-                a=a/10;
-                // printf("a = %d\n",a);                                              
+                                                              
             }            
 
             b=b/10;
             printf("Reverse of the Number:- %d\n\n",b);
 
-            if(e==b)
+            if(a==b)
             {
                 printf("It is a Palindrome.\n");
             }
             else
             {
-                printf("It is not a Palindrome.\n");
+                printf("It is NOT a Palindrome.\n");
             }
         return 0;
         }

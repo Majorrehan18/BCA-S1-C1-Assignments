@@ -1,4 +1,5 @@
 //Assignment 19 :- Writing a Program to display the following pattern: * ** *** **** *****
+
 #include <stdio.h>
     int main()
         {
