@@ -1,0 +1,12 @@
+#include <stdio.h> 
+void addf ();
+int main() {
+    
+    printf("Hello, World!\n");
+    addf ();
+    return 0;
+}
+void addf ()
+{printf ("hello lmc");
+}
+
